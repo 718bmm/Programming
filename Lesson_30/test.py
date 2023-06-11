@@ -34,6 +34,3 @@ class TestPlusFunction(unittest.TestCase):
     def tearDown(self):
         print('Ending tests workflow!')
         # del self.x
-
-if __name__ == "__main__":
-    unittest.main()

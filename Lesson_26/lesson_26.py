@@ -194,3 +194,5 @@ class Store:
 
         return f'{self.name} | {self.card_balance}: Not enough money.'
     
+ss = Store.login(email='behruz@gmail.com', password='234fjfdsd')
+print(ss)
