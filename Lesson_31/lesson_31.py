@@ -29,9 +29,9 @@ with Image.open("./pokemons/pikachu.png") as img:
 # resized = filtered_img.resize((300, 300))
 # resized.save('resized.png', 'png')
 
-# box = (50, 50, 300, 300)
-# region = img.crop(box)
-# region.save('grey_pikachu.png', 'png')
+box = (50, 50, 300, 300)
+region = img.crop(box)
+region.save('grey_pikachu.png', 'png')
 
 img = Image.open('./astro.png')
 print(img.size)
