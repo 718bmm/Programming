@@ -5,11 +5,11 @@ from email.mime.multipart import MIMEMultipart
 
 message = MIMEMultipart('alternative')
 message['Subject'] = 'multipart test'
-message['From'] = os.environ.get('bmmusadjanov@gmail.com')
+message['From'] = os.environ.get('EMAIL_PASSWORD')
 message['To'] = 'pabloskipubgm@gmail.com'
-email_sender = os.environ.get('bmmusadjanov@gmail.com')
-email_password = os.environ.get('xgyacgfprobdcagh')
+email_sender = os.environ.get('EMAIL')
 email_receiver = 'pabloskipubgm@gmail.com'
+email_password = os.environ.get('EMAIL_PASSWORD')
 
 
 # Create the plain-text and HTML version of your message

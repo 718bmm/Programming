@@ -3,9 +3,9 @@ import ssl
 import smtplib
 from email.message import EmailMessage
 
-email_sender = 'bmmusadjanov@gmail.com'
-email_password = 'xgyacgfprobdcagh'
-email_receiver = ["elbekcoriev17@gmail.com","pabloskipubgm@gmail.com"]
+email_sender = 'EMAIL'
+email_password = 'EMAIL_PASSWORD'
+email_receiver = "elbekcoriev17@gmail.com","pabloskipubgm@gmail.com"
 
 
 subject = "Check out my video"
