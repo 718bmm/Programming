@@ -98,3 +98,30 @@ print(b)
 #     except StopIteration:
 #         break
             
+
+            # Salom, siz qidiruv etgan so'rovga javob qo'yishga tayyorman. Manba: Introduction to Programming using Python online qo'llanma bo'yicha Python kodiga qo'shilgan Fibonacci sonlari tushunishga yordam bermoqchiman. Kodni bemalol qo'shib chiqish qulay va ilojiy foydalangan modul bo'lgan “Recursion Module” ni ishlatish orqali kod qisqacha va oson qilish mumkin. Keyingi so'yanni o'qish uchun xavfsiz bo'lganiga ishonishingiz kerak: 
+
+# Fibonacci series starts with 0, 1
+# Each next item in the series is the sum of two previous items
+
+
+def FibonacciSeries(n): 
+    
+    f_1 = 0
+    f_2 = 1
+
+    if n == 0:
+        print(f_1)
+    elif n == 1:
+        print(f_1, f_2)
+    else:
+        print(f_1, f_2, end= " ")      # This line prints 0 and 1
+
+        for i in range(2, n):
+            next_f = f_1 + f_2
+            f_1 = f_2 
+            f_2 = next_f 
+            print(next_f, end = " ") 
+  
+# Driver Function 
+FibonacciSeries(10)

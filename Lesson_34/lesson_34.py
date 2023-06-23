@@ -19,6 +19,7 @@ psw = "password123"
 # Step 1
 import requests
 import hashlib
+import sys
 
 def request_api_data(query_param):
     url = "https://api.pwnedpasswords.com/range/" + str(query_param)
@@ -60,4 +61,6 @@ def main(passwords):
     return "Success!"
 
 
-main(['password1', 'password2', 'password3'])
+if __name__ == "__main__":
+    passwords = sys.argv[1:]
+    main(passwords)
