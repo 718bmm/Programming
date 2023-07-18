@@ -42,17 +42,21 @@
 --UPDATE movies_db SET category = 'Action, Adventure, Fantasy' WHERE name = 'The Flash';
 --UPDATE movies_db SET rating = '7.1' WHERE name = 'The Flash';
 --UPDATE movies_db SET box_office = '267200000' WHERE name = 'The Flash';
+--UPDATE movies_db SET created_at = '2021-01-19' WHERE name = 'The Flash';
 
 --UPDATE movies_db SET runtime = '02:16:00' WHERE name = 'Spider-Man: Across the Spider-Verse';
 --UPDATE movies_db SET category = 'Action, Adventure, Fantasy' WHERE name = 'Spider-Man: Across the Spider-Verse';
 --UPDATE movies_db SET rating = '8.9' WHERE name = 'Spider-Man: Across the Spider-Verse';
 --UPDATE movies_db SET box_office = '663500000' WHERE name = 'Spider-Man: Across the Spider-Verse';
+--UPDATE movies_db SET created_at = '2022-10-07' WHERE name = 'Spider-Man: Across the Spider-Verse';
 
 --UPDATE movies_db SET runtime = '02:07:34' WHERE name = 'Transformers: Rise of the Beasts';
 --UPDATE movies_db SET category = 'Action, Fantasy' WHERE name = 'Transformers: Rise of the Beasts';
 --UPDATE movies_db SET rating = '6.2' WHERE name = 'Transformers: Rise of the Beasts';
 --UPDATE movies_db SET box_office = '421000000' WHERE name = 'Transformers: Rise of the Beasts';
+--UPDATE movies_db SET created_at = '2018-11-07' WHERE name = 'Transformers: Rise of the Beasts';
 
 
-ALTER TABLE movies_db
-ADD CONSTRAINT constraint_name UNIQUE (name);
+--ALTER TABLE movies_db
+--ADD CONSTRAINT constraint_name UNIQUE (name);
+
