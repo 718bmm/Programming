@@ -1,0 +1,51 @@
+-- select first_name 'Имя', last_name 'Фамилия', city 'Город' from people;
+-- ame 'Имя', last_name 'Фамилия', upper(city) as 'Город' from people;
+-- T state_code from people;
+
+
+-- select state_code from people;
+-- select first_name, last_name, city, state_code from people
+-- where state_code != 'NY';
+
+
+-- Janice
+-- select first_name, last_name, city, state_code from people
+-- where first_name LIKE 'Jan_ce';
+-- where first_name LIKE 'Ja%';
+-- where first_name LIKE '%an%';
+-- where first_name LIKE '%an%e_';
+
+
+-- select first_name, last_name, city, state_code from people
+-- where company = Null;
+-- использование is обязательно для проверки Null;
+-- where company is NULL;
+-- where company is not NULL;
+
+
+-- select first_name, last_name, city, state_code from people
+-- where quiz_points BETWEEN 90 and 100;
+-- where first_name BETWEEN 'A' and 'C';
+-- where first_name like 'C';
+-- where quiz_points > 90 and quiz_points != 100;
+-- where (first_name like 'A' and last_name like 'W') and 
+-- (quiz_points = 96 or quiz_points = 92);
+
+
+-- select first_name, last_name, city, state_code, quiz_points from people
+-- where city = 'Los Angeles'
+-- limit 5;
+
+
+SELECT first_name, last_name, age,
+ CASE
+  WHEN age > 40 THEN 'Adult Content. :1'
+  WHEN age > 18 THEN 'You can drive now!'
+  ELSE 'You are still child :D'
+ END as 'Response'-- we can ass END AS 'Review' to shorten column name
+FROM people;
+
+
+-- asc - desc
+select first_name, last_name, city, state_code, quiz_points from people
+ORDER by quiz_points desc;
