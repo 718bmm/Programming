@@ -1,0 +1,127 @@
+/* 
+letter-spacing: horizontal spacing
+line-height: vertical spacing
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gill Sans", sans-serif;
+    /* font-family: Georgia, serif; */
+    /* font-family: Helvetica, sans-serif; */
+    /* font-family: "Gill Sans Extrabold", sans-serif; */
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+nav {
+    background-color: rgb(136, 164, 229);
+    width: 100%;
+    text-align: center;
+    /* height: 50px;    */
+}
+
+nav li {
+    display: inline-block;
+    padding: 10px 10px;
+    /* border: 1px solid purple; */
+    margin: 0 5px;
+}
+
+nav li:hover {
+    background-color: rgb(255, 235, 86);
+}
+
+nav a:hover {
+    color: purple;
+}
+
+nav a {
+    color: white;
+}
+
+header {
+    text-align: center;
+    background: url(./pikachu.jpg);
+    height: 300px;
+}
+
+header h1 {
+    padding: 100px;
+}
+
+main {
+    width: 500px;
+    margin: 20px auto;
+    text-align: center;
+    /* border: 1px solid blue; */
+    background-color: rgb(136, 164, 229);
+}
+
+img {
+    width: 300px;
+}
+
+/* span {
+    width: 100px;
+    height: 100px;
+    background-color: #c51111;
+    margin: 100px;
+    padding: 100px;
+} */
+
+.learn-more {
+    display: inline-block;
+    border: 2px solid purple;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 5px 0;
+    color: purple;
+    transition: all 0.3s ease;
+}
+
+.learn-more:hover {
+    border: 2px solid yellow;
+    color: yellow;
+}
+
+article {
+    margin-top: 10px;
+    /* border: 1px solid purple; */
+}
+
+article:nth-child(1) {
+    margin-top: 0;
+}
+
+/* .box {
+    width: 50%;
+    height: 100px;
+    background-color: #e386fd;
+} */
+
+
+footer {
+    height: 200px;
+    background-color: rgb(136, 164, 229);
+}
+
+.footer-items {
+    font-size: 14px;
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px 0;
+    letter-spacing: 0.1em;
+    line-height: 1.5em;
+}
+
+.footer-items a:hover {
+    color: white;
+}

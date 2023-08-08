@@ -1,0 +1,85 @@
+/* 
+box-sizing:
+- content-box
+width = width
+height = height
+- border-box
+width = width + padding + border
+height = height + padding + border
+
+tag
+class
+id
+
+*/
+
+* {
+    box-sizing: border-box;
+}
+body {
+    color: yellow;
+}
+p {
+    color: green !important;
+}
+
+.a {
+    color: aqua;
+}
+div {
+    border: 2px solid yellow;
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.one {
+    /* display: inline-block; */
+    border: 2px solid red;
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+}
+
+#container {
+    /* display: inline-block; */
+    border: 2px solid purple;
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+}
+
+body #container {
+    border: 2px solid green;
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+}
+
+li {
+    color: green;
+}
+
+
+
+/* .test {
+    display: inline-block;
+    border: 2px solid yellow;
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+} */
+
+/* .two {
+    border: 2px solid purple;
+    width: 200px;
+    height: 100px;
+    margin: 30px 20px;
+}
+
+.three {
+    border: 2px solid purple;
+    width: 200px;
+    height: 100px;
+} */
