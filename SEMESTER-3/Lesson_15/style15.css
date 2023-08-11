@@ -1,0 +1,116 @@
+* {
+    margin-left: 75px;
+    /* margin-top: 50px; */
+}
+
+
+
+img {
+    float: left;
+    /* margin: 10px; */
+    margin-bottom: 20px;
+    height: 100%;
+    margin-right: 10px;
+
+}
+
+h1 {
+    margin-left: 200px;
+    font-size: smaller;
+}
+
+div {
+    /* border: 5px solid gray; */
+    clear: left;
+    margin: 10px;
+    margin-top: 150px;
+    height: 150px;
+
+
+}
+
+p {
+    color: black;
+    font-style: italic;
+    margin-left: 50px;
+    margin-top: 10px;
+    font-size: large;
+
+}
+
+a {
+    font-size: smaller;
+    color: blue;
+    text-decoration: none;
+    font-style: italic;
+    margin-left: 0%;
+
+}
+
+table {
+    /* display: inline;
+    display: block;
+    display: inline-block; */
+    margin-left: 87px;
+    width: 1000px;
+    table-layout: fixed;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    /* border: 1px solid black;
+    padding: 5px; */
+    text-align: left;
+}
+
+.align-right {
+    text-align: right;
+}
+
+tfoot td {
+    font-weight: bold;
+}
+
+thead th:nth-child(1) {
+    width: 20%;
+}
+
+thead th:nth-child(2) {
+    width: 20%;
+}
+
+thead th:nth-child(3) {
+    width: 20%;
+}
+
+thead th:nth-child(4) {
+    width: 20%;
+}
+
+/* odd - even  */
+tbody tr:nth-child(odd) {
+    background-color: #E7E9EB;
+}
+
+/* tbody tr:nth-child(even) {
+    background-color: #E495E4;
+} */
+
+a:hover {
+    text-decoration: none;
+    color: green;
+}
+
+td {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.pd-left {
+    padding-left: 5px;
+}
+
+h2 {
+    margin: 100px;
+}
