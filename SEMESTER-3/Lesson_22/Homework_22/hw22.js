@@ -34,5 +34,5 @@ function playRound() {
 
 function endGame() {
     document.getElementById("result").innerHTML += "<br>Game Over! <br>Player Score: " + playerScore + "<br>Computer Score: " + computerScore;
-    document.getElementById("playerGuess").disabled = false;
+    document.getElementById("btn").disabled = false;
 }
