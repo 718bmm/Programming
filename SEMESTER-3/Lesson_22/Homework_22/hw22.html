@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Guess the Number Game</title>
+    <link rel="stylesheet" type="text/css" href="hw22.css">
+</head>
+<body>
+    <h1>Number Guesser!</h1>
+    <h1 id="round">Round 1</h1>
+    <p id="result"></p>
+    <div class="container">
+        <div class="computerGuess">
+                <span>Computer</span>
+                <p id="score-cg">Score: </p>
+                <p id="result-cg"></p>
+        </div>
+        <div class="playerGuess">
+            <span>You</span>
+            <p id="score-pg">Score: </p>
+            <input type="number" id="playerGuess" min="1" max="10">
+            <button onclick="playRound()">Submit</button>
+            <p id="result-pg"></p>
+        </div>
+    </div>
+
+    <script src="hw22.js"></script>
+</body>
+<footer class="footer">
+    <div class="footer-obj">
+        <p>Step 1</p>
+        <p>Step 2</p>
+        <p>Step 3</p>
+    </div>
+    <div class="footer-obj-2">
+        <h5>Input a number between 0 and 9</h3>
+        <h5>Click "Make a Guess" to submit your guess and see who won the round</h3>
+        <h5>Click "Next Round" to play again</h3>
+    </div>
+</footer>
+</html>
