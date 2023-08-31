@@ -1,0 +1,140 @@
+#ball {
+    width: 65px;
+    height: 65px;
+    background-color: black;
+    position: absolute;
+    top: 300px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: top 1s;
+    border-radius: 100%;
+}
+
+.header-main {
+    text-align: center;
+}
+
+.a-socnet {
+    text-decoration: none;
+    color: black;
+    margin-top: 40px;
+}
+
+img {
+    float: left;
+    /* margin: 10px; */
+    margin-bottom: 20px;
+    height: 100%;
+    margin-right: 10px;
+
+}
+
+.h1-article {
+    margin-left: 100px;
+    font-size: smaller;
+    color: gray;
+}
+
+.div-article {
+    border: 1px solid gray;
+    clear: left;
+    margin: 10px;
+    height: 150px;
+    margin-left: 25px;
+    margin-top: 50px;
+}
+
+.p-article {
+    color: black;
+    font-style: italic;
+    margin-left: 50px;
+    margin-top: 10px;
+    font-size: medium;
+
+}
+
+.a-article {
+    font-size: smaller;
+    color: blue;
+    text-decoration: none;
+    font-style: italic;
+    margin-left: 0%;
+    text-decoration: none;
+}
+
+.h1-your_mail {
+    color: black;
+}
+
+
+.body-aboutme {
+    margin-left: 75px;
+    /* margin-top: 50px; */
+}
+
+.form-main {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.photo-aboutme {
+    float: left;
+    /* margin: 10px; */
+    margin-bottom: 20px;
+    height: 100%;
+    margin-right: 10px;
+
+}
+
+h1 {
+    margin-left: 200px;
+    font-size: smaller;
+}
+
+table {
+    /* display: inline;
+    display: block;
+    display: inline-block; */
+    margin-left: 87px;
+    width: 1000px;
+    table-layout: fixed;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: left;
+}
+
+.align-right {
+    text-align: right;
+}
+
+tfoot td {
+    font-weight: bold;
+}
+
+thead th:nth-child(1) {
+    width: 20%;
+}
+
+thead th:nth-child(2) {
+    width: 20%;
+}
+
+
+/* odd - even  */
+tbody tr:nth-child(odd) {
+    background-color: #E7E9EB;
+}
+
+td {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.pd-left {
+    text-align: left;
+}
