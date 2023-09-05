@@ -1,47 +1,47 @@
-// Events Task
+// // Events Task
 
-// Mouse
-// 1. mousedown - Срабатывает при нажатии кнопки мыши на элементе.
-element.addEventListener('mousedown', function(event) {
-  console.log('Mouse Down');
-});
-
-
-// 2. mouseup - Срабатывает при отпускании кнопки мыши, после ее нажатия на элементе.
-element.addEventListener('mouseup', function(event) {
-  console.log('Mouse Up');
-});
+// // Mouse
+// // 1. mousedown - Срабатывает при нажатии кнопки мыши на элементе.
+// element.addEventListener('mousedown', function(event) {
+//   console.log('Mouse Down');
+// });
 
 
-// 3. mouseover - Срабатывает, когда указатель мыши перемещается на элемент.
-element.addEventListener('mouseover', function(event) {
-  console.log('Mouse Over');
-});
+// // 2. mouseup - Срабатывает при отпускании кнопки мыши, после ее нажатия на элементе.
+// element.addEventListener('mouseup', function(event) {
+//   console.log('Mouse Up');
+// });
 
 
-// 4. mouseout - Срабатывает, когда указатель мыши покидает элемент.
-element.addEventListener('mouseout', function(event) {
-  console.log('Mouse Out');
-});
+// // 3. mouseover - Срабатывает, когда указатель мыши перемещается на элемент.
+// element.addEventListener('mouseover', function(event) {
+//   console.log('Mouse Over');
+// });
 
 
-// Keyboard
-// 1. keydown - Срабатывает при нажатии клавиши на клавиатуре.
-document.addEventListener('keydown', function(event) {
-  console.log('Key Down: ' + event.key);
-});
+// // 4. mouseout - Срабатывает, когда указатель мыши покидает элемент.
+// element.addEventListener('mouseout', function(event) {
+//   console.log('Mouse Out');
+// });
 
 
-// 2. keyup - Срабатывает при отпускании клавиши на клавиатуре.
-document.addEventListener('keyup', function(event) {
-  console.log('Key Up: ' + event.key);
-});
+// // Keyboard
+// // 1. keydown - Срабатывает при нажатии клавиши на клавиатуре.
+// document.addEventListener('keydown', function(event) {
+//   console.log('Key Down: ' + event.key);
+// });
 
 
-// 3. keypress - Более устаревшее событие, срабатывает при нажатии клавиши на клавиатуре и возвращает символ (для символических клавиш). Однако это событие может быть неработоспособно с некоторыми клавишами.
-document.addEventListener('keypress', function(event) {
-  console.log('Key Press: ' + event.key);
-});
+// // 2. keyup - Срабатывает при отпускании клавиши на клавиатуре.
+// document.addEventListener('keyup', function(event) {
+//   console.log('Key Up: ' + event.key);
+// });
+
+
+// // 3. keypress - Более устаревшее событие, срабатывает при нажатии клавиши на клавиатуре и возвращает символ (для символических клавиш). Однако это событие может быть неработоспособно с некоторыми клавишами.
+// document.addEventListener('keypress', function(event) {
+//   console.log('Key Press: ' + event.key);
+// });
 
 
 // Ball Task
@@ -50,7 +50,7 @@ const defaultPosition = ball.offsetTop;
 const jumpHeight = 200;
 
 function jump(event) {
-    if (event.code === "Space" || event.code === "Enter" || event.code === "UpArrow") {
+    if (event.code === "Space" || event.code === "Enter") {
         ball.style.top = (defaultPosition - jumpHeight) + "px";
         
         setTimeout(function() {
@@ -64,10 +64,10 @@ document.addEventListener("keydown", jump);
 
 
 
-// Blog Task 
-const userData = new URLSearchParams(window.location.search);
-let mail = document.querySelector("h1");
-mail.innerHTML = userData.get("mail");
+// // Blog Task 
+// const userData = new URLSearchParams(window.location.search);
+// let mail = document.querySelector("h1");
+// mail.innerHTML = userData.get("mail");
 
 // Создать личный блог
 // 1. Главная страница блога должна имеет: | +/-

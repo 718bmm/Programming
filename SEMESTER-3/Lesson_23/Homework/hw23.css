@@ -9,7 +9,7 @@
     transition: top 1s;
     border-radius: 100%;
 }
-
+/* 
 .header-main {
     text-align: center;
 }
@@ -22,12 +22,12 @@
 
 img {
     float: left;
-    /* margin: 10px; */
+    margin: 10px;
     margin-bottom: 20px;
     height: 100%;
     margin-right: 10px;
 
-}
+} 
 
 .h1-article {
     margin-left: 100px;
@@ -66,20 +66,19 @@ img {
     color: black;
 }
 
-
-.body-aboutme {
-    margin-left: 75px;
-    /* margin-top: 50px; */
-}
-
 .form-main {
     margin-top: 40px;
     text-align: center;
 }
 
+.body-aboutme {
+    margin-left: 75px;
+    margin-top: 50px;
+}
+
 .photo-aboutme {
     float: left;
-    /* margin: 10px; */
+    margin: 10px;
     margin-bottom: 20px;
     height: 100%;
     margin-right: 10px;
@@ -92,9 +91,9 @@ h1 {
 }
 
 table {
-    /* display: inline;
+    display: inline;
     display: block;
-    display: inline-block; */
+    display: inline-block;
     margin-left: 87px;
     width: 1000px;
     table-layout: fixed;
@@ -125,7 +124,7 @@ thead th:nth-child(2) {
 }
 
 
-/* odd - even  */
+odd - even 
 tbody tr:nth-child(odd) {
     background-color: #E7E9EB;
 }
@@ -138,3 +137,4 @@ td {
 .pd-left {
     text-align: left;
 }
+*/
