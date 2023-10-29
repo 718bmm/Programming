@@ -1,0 +1,25 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="{% static 'css/base.css' %}" rel="stylesheet">
+    <title>To Do List</title>
+</head>
+<body>
+    <h1 class="h1">To Do List</h1>
+    <form method="post" class="form">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit" class="button">Add</button>
+    </form>
+
+    <ul class="ul">
+        <h2 class="h2">Current To Do Items:</h2>
+        {% for todo_item in todo_items %}
+            <li class="li">{{ todo_item.title }} - {{ todo_item.description }} - {{ todo_item.status }} - {{ todo_item.deadline }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

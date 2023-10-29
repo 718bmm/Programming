@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <title>{{ title | default("Amazing Recipes") }}</title> -->
+    {% if title %}
+        <title>{{ title }}</title>
+    {% else %}
+        <title>Amazing Recipes</title>
+    {% endif %}
+</head>
+<body>
+    <h1>List of my favourite recipes</h1>
+    <p>recipes description</p>
+
+    <ul>
+        {% for recipe in recipes.values() %}
+            <li>{{ recipe | title }}</li>
+        {% endfor %}
+        <!-- <li>{{ recipes[1] | capitalize }}</li>
+        {% if egg %}
+            <li>egg</li>
+        {% else %}
+            <li>EEEEEEEGGGG</li>
+        {% endif %} -->
+        <!-- <li>{{ egg | default("I am an egg recipe") }}</li> -->
+    </ul>
+</body>
+</html>
